@@ -5,11 +5,11 @@ Summary:	Lingua::EN::Syllable perl module
 Summary(pl):	Modu³ perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,7 +25,8 @@ Lingua::EN::Syllable szacuje liczbê sylab w wyrazach angielskich.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -39,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Lingua/EN/Syllable.pm
+%{perl_vendorlib}/Lingua/EN/Syllable.pm
 %{_mandir}/man3/*
