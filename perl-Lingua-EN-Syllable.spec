@@ -9,7 +9,7 @@ Summary:	Lingua::EN::Syllable perl module
 Summary(pl):	Modu³ perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
