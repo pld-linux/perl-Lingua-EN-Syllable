@@ -27,7 +27,7 @@ Lingua::EN::Syllable szacuje liczbê sylab w wyrazach angielskich.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
