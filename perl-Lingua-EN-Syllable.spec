@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Lingua-EN-Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-EN-Syllable-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-EN-Syllable-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,8 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-EN-Syllable estimates the number of syllables in the word passed to it. 
+Lingua-EN-Syllable estimates the number of syllables in the word
+passed to it.
 
 %description -l pl
 Lingua-EN-Syllable szacuje liczbê sylab w wyrazach angielskich.
