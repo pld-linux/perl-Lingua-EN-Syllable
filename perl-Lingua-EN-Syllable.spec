@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f44a056e92c1d9df89e190591879d84f
