@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Syllable
-Summary:	Lingua-EN-Syllable perl module
-Summary(pl):	Modu³ perla Lingua-EN-Syllable
+Summary:	Lingua::EN::Syllable perl module
+Summary(pl):	Modu³ perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-EN-Syllable estimates the number of syllables in the word
+Lingua::EN::Syllable estimates the number of syllables in the word
 passed to it.
 
 %description -l pl
-Lingua-EN-Syllable szacuje liczbê sylab w wyrazach angielskich.
+Lingua::EN::Syllable szacuje liczbê sylab w wyrazach angielskich.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
