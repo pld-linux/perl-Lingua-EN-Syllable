@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	EN-Syllable
+%define		pdir	Lingua
+%define		pnam	EN-Syllable
 Summary:	Lingua::EN::Syllable perl module
 Summary(pl):	Modu³ perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
