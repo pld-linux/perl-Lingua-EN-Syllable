@@ -26,7 +26,7 @@ Lingua-EN-Syllable szacuje liczbê sylab w wyrazach angielskich.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
