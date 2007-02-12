@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Syllable
 Summary:	Lingua::EN::Syllable perl module
-Summary(pl):	Modu³ perla Lingua::EN::Syllable
+Summary(pl.UTF-8):   ModuÅ‚ perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
 Release:	10
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Lingua::EN::Syllable estimates the number of syllables in the word
 passed to it.
 
-%description -l pl
-Lingua::EN::Syllable szacuje liczbê sylab w wyrazach angielskich.
+%description -l pl.UTF-8
+Lingua::EN::Syllable szacuje liczbÄ™ sylab w wyrazach angielskich.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
