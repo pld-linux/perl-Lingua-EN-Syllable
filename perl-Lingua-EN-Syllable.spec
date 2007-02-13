@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Syllable
 Summary:	Lingua::EN::Syllable perl module
-Summary(pl.UTF-8):   Moduł perla Lingua::EN::Syllable
+Summary(pl.UTF-8):	Moduł perla Lingua::EN::Syllable
 Name:		perl-Lingua-EN-Syllable
 Version:	0.251
 Release:	10
