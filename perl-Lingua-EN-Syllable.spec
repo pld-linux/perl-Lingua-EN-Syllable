@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Lingua
 %define		pnam	EN-Syllable
 Summary:	Lingua::EN::Syllable Perl module - estimating syllable count in words
